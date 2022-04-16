@@ -1,8 +1,31 @@
 html {
   box-sizing: border-box;
-  font-family: font-family: 'Josefin Sans', sans-serif;
-  font-family: 'Rum Raisin', sans-serif;;
 }
 .garage-item img {
   max-width: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  height: 400px;
 } 
+header {
+  font-family: 'Rum Raisin', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  align-items: center;
+}
+.header-nav a {
+  text-decoration: none;
+}
+h2 {
+  text-align: center;
+}
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
