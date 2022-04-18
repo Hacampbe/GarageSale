@@ -7,16 +7,15 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rum+Raisin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rum+Raisin&display=swap" rel="stylesheet">
     <title>Garage Sale</title>
 </head>
 <header>
-        <h1>Garage Sale</h1>
-        <nav class="header-nav">
-            <a href="#">Log in</a>
-            <a href="#">Create an account</a>
-        </nav>
-    </header>
+    <h1>Garage Sale</h1>
+    <nav class="header-nav">
+        <button id="checkout">Checkout</button>
+    </nav>
+ </header>
 <body>
     <h2>Collection</h2>
     <section class="grid">
@@ -41,8 +40,8 @@
         <div class="garage-item">
             <img  src="images/nice-m-nshuti-cTqxDBsEv3g-unsplash.jpg" alt="">
             <p>C-3PO</p>
-            <p>Free</p>
-            <button id="add-c3po">Add to Cart</button>
+            <p>$50</p>
+            <button id="add-starwars">Add to Cart</button>
         </div>
         <div class="garage-item">
             <img  src="images/thomas-vogel-GgDae0X4ExY-unsplash.jpg" alt="">
@@ -54,10 +53,11 @@
             <img  src="images/vicko-mozara-m82uh_vamhg-unsplash.jpg" alt="">
             <p>Flamingo Tube</p>
             <p>$5</p>
-            <button id="add-flamingo">Add to Cart</button>
+            <button class="add-to-cart" id="add-flamingo">Add to Cart</button>
         </div>
     </section>
 
-    <script src="myscripts.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
